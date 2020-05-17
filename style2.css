@@ -1,0 +1,653 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background-color:  lightgray;
+
+}
+#container{
+	display: flex;
+	justify-content: center;
+	box-sizing: border-box;
+	margin: 30px;
+
+
+}
+#page{
+	width: 280px;
+	height: 600px;
+	border-radius: 30px;
+	background-color: white;
+	border: 0.5px solid white;
+	margin: 40px;
+
+}
+img{
+	width:278px;
+	height:250px;
+	border-radius: 30px;
+}
+#content2{
+
+}
+#hrline{
+	padding-top: 10px;
+}
+
+#name1{
+	font-family: Century Gothic;
+	font-weight: normal;
+	font-size: 16px;
+	color: black;
+
+}
+#name2{
+	font-family: Century Gothic ;
+	font-weight: 900;
+	font-size: 16px;
+	color: solid black;
+
+
+}
+#name3{
+	font-family: Century Gothic;
+	font-weight: normal;
+	font-size: 10px;
+	color: gray;
+	padding:10px;
+
+}
+#box1{
+	width:45px;
+	height: 45px;
+	border-radius: 5px;
+	background-color: #FCD9CB;
+	
+}
+#emoji{
+	font-size: 20px;
+	padding: 10px 2px;
+}
+
+#box2{
+	width:45px;
+	height: 45px;
+	border-radius: 5px;
+	background-color: #D1E5E0;
+	
+}
+
+#box3{
+	width:45px;
+	height: 45px;
+	border-radius: 5px;
+	background-color: #F9EBEA;
+	
+}
+#text1{
+	display: flex;
+	justify-content: space-around;
+	margin: 15px;
+	padding: 10px;
+
+}
+#line1{
+	font-family: Century Gothic ;
+	font-weight: bold;
+	font-size: 12px;
+	color: solid black;
+
+}
+#line2{
+	font-family: Century Gothic;
+	font-weight: normal;
+	font-size: 9px;
+	color: gray;
+	box-sizing: border-box;
+	padding-right: 35px;
+	margin-top: 5px;
+}
+#avg{
+	font-family: Century Gothic;
+	font-weight: normal;
+	font-size: 9px;
+	color: gray;
+	box-sizing: border-box;
+	padding-right: 40px;
+	margin-top: 5px;
+}
+#good{
+	font-family: Century Gothic;
+	font-weight: normal;
+	font-size: 9px;
+	color: gray;
+	box-sizing: border-box;
+	padding-right: 62px;
+	margin-top: 5px; 
+}
+
+
+
+#section1{
+	background-color: #f5f5f5;
+	display: flex;
+	width:280px;
+	height: 60px;
+	border-top-left-radius: 30px;
+	border-top-right-radius: 30px;
+	box-sizing: border-box;
+	justify-content: space-around;
+
+
+}
+#adjust{
+	font-size: 20px;
+    padding-top: 20px;
+    padding-right: 110px;	
+	 
+}
+#arrow{
+	font-size: 20px;
+	margin-top:20px; 
+	padding-right: 60px;
+	
+}
+#section2{
+	width:280px;
+	height: 530px;
+	background-color: white;
+	border-radius: 30px;
+
+
+}
+#page2{
+	background-color: #f5f5f5;
+	border-radius: 30px;
+}
+#circle {
+  height: 50px;
+  width: 50px;
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+  border-radius: 50%; /* may require vendor prefixes */
+  background: #136C4A;
+  color:#fff;
+  font-size: 25px; 
+
+}
+#boxs1{
+	width:280px;
+	height:80px;
+	background-color: #fff;
+	padding-top: 20px;
+}
+#boxs2{
+	width:280px;
+	height:80px;
+	background-color: #fff;
+	
+}
+#boxs3{
+	width:280px;
+	height:70px;
+	background-color:  #fff;
+	display: flex;
+	justify-content: space-around;
+	
+}
+/*#boxs4{
+	width:280px;
+	height:160px;
+
+	background-color: green;
+	display: flex;
+	justify-content: space-around;
+	
+}*/
+
+#boxs5{
+	width:280px;
+	height:40px;
+	background-color: #fff;
+	display: flex;
+	justify-content: space-around;
+	padding-top: 10px;
+	font-family: Century Gothic;
+	font-weight: normal;
+	font-size: 11px;
+	color:gray;
+	
+}
+/*#boxs6{
+	width:280px;
+	height:10px;
+	background-color: #fff;
+	
+}*/
+#boxs7{
+	width:280px;
+	height:70px;
+	background-color: #fff;
+	border-bottom-left-radius: 30px;
+	border-bottom-right-radius:30px;
+	display: flex;
+	justify-content: space-around;
+	box-sizing: border-box;
+	padding-top: 20px;
+
+	
+}
+#boxs7 #key16{
+	background-color:#136C4A;
+	width: 40px;
+	height: 50px;
+	font-weight: bold;
+	color:#fff; 
+}
+#key1, #key2 {
+	font-family: Century Gothic ;
+	font-weight:bold;
+	font-size: 15px;
+	color: solid black;
+
+}
+#key3{
+	font-family: Century Gothic ;
+	font-weight: normal;
+	font-size: 10px;
+	color: gray;
+	padding-top: 15px;
+
+}
+#key4{
+	padding-top: 10px;
+
+}
+
+#pop1{
+	font-family: Arial ;
+	font-weight:normal;
+	font-size: 18px;
+	color: solid black;
+
+}
+
+#pop2{
+	font-family: Century Gothic ;
+	font-weight: normal;
+	font-size: 10px;
+	color: gray;
+	padding-top: 1px;
+
+}
+
+/*this this is stoke percentage */
+
+ .box{
+     	position:relative;
+     	width: 45px;
+     	height:45px;
+     	display: flex;
+     	justify-content: center;
+     	flex-direction: column;
+     	background-color: white;
+     	
+     }
+     .box .percent {
+     	position: relative;
+     	width:45px;
+     	height: 45px;
+     }
+     .box .percent svg{
+     	position: relative;
+     	width:45px;
+     	height: 45px;
+     }
+     .box .percent svg  circle{
+     	position: relative;
+     	width: 45px;
+     	height: 45px;
+     	fill:none;
+     	stroke-width:4;  
+     	stroke: #000;
+     	transform: translate(5px,5px);
+     	stroke-dasharray: 440;
+     	stroke-dashoffset: 440;
+     
+
+     }
+     .box .percent svg circle:nth-child(1){
+     	stroke-dashoffset:0;
+     	stroke: #FCD9CB; 
+     }
+     .box .percent svg circle:nth-child(2){
+     	stroke-dashoffset:350;
+     	stroke: #FF6E33; 
+     }
+     .box .percent .number
+     {
+     	position: absolute;
+     	top: 0;
+     	left:0;
+     	width: 100%;
+     	height: 100%;
+     	display: flex;
+     	justify-content: center;
+     	align-items: center;
+     	color:#FF6E33;  
+
+     }
+      .box .percent .number h2{
+      	font-size: 10px;
+      	color: #FF6E33;
+
+      }
+      .box .percent .number h2 span{
+      	font-size: 8px;
+      	font-family: Arial ;
+      	color: #FF6E33;
+
+      }
+
+      /*second stoke*/
+
+      .boxI{
+     	position:relative;
+     	width: 45px;
+     	height:45px;
+     	display: flex;
+     	justify-content: center;
+     	flex-direction: column;
+     	background-color: white;
+     	
+     }
+     .boxI .percentI {
+     	position: relative;
+     	width:45px;
+     	height: 45px;
+     }
+     .boxI .percentI svg{
+     	position: relative;
+     	width:45px;
+     	height: 45px;
+     }
+     .boxI .percentI svg  circle{
+     	position: relative;
+     	width: 45px;
+     	height: 45px;
+     	fill:none;
+     	stroke-width:4;  
+     	stroke: #000;
+     	transform: translate(5px,5px);
+     	stroke-dasharray: 440;
+
+     	stroke-dashoffset: 440;
+     
+
+     }
+     .boxI .percentI svg circle:nth-child(1){
+     	stroke-dashoffset:0;
+     	stroke: #D1E5E0; 
+     }
+     .boxI .percentI svg circle:nth-child(2){
+     	stroke-dashoffset:380;
+     	stroke: #10CA97; 
+     }
+     .boxI .percentI .numberI
+     {
+     	position: absolute;
+     	top: 0;
+     	left:0;
+     	width: 100%;
+     	height: 100%;
+     	display: flex;
+     	justify-content: center;
+     	align-items: center;
+     	color:#10CA97;  
+
+     }
+      .boxI .percentI .numberI h2{
+      	font-size: 10px;
+      	color: #10CA97;
+
+      }
+      .boxI .percentI .numberI h2 span{
+      	font-size: 8px;
+      	font-family: Arial ;
+      	color: #10CA97;
+
+      }
+/* third stoke*/
+
+.boxK{
+     	position:relative;
+     	width: 45px;
+     	height:45px;
+     	display: flex;
+     	justify-content: center;
+     	flex-direction: column;
+     	background-color: white;
+     	
+     }
+     .boxK .percentK {
+     	position: relative;
+     	width:45px;
+     	height: 45px;
+     }
+     .boxK .percentK svg{
+     	position: relative;
+     	width:45px;
+     	height: 45px;
+     }
+     .boxK .percentK svg  circle{
+     	position: relative;
+     	width: 45px;
+     	height: 45px;
+     	fill:none;
+     	stroke-width:4;  
+     	stroke: #000;
+     	transform: translate(5px,5px);
+     	stroke-dasharray: 440;
+
+     	stroke-dashoffset: 440;
+     
+
+     }
+     .boxK .percentK svg circle:nth-child(1){
+     	stroke-dashoffset:0;
+     	stroke: #F9EBEA; 
+     }
+     .boxK .percentK svg circle:nth-child(2){
+     	stroke-dashoffset:340;
+     	stroke: #7B241C; 
+     }
+     .boxK .percentK .numberK
+     {
+     	position: absolute;
+     	top: 0;
+     	left:0;
+     	width: 100%;
+     	height: 100%;
+     	display: flex;
+     	justify-content: center;
+     	align-items: center;
+     	color:#7B241C;  
+
+     }
+      .boxK .percentK .numberK h2{
+      	font-size: 10px;
+      	color: #7B241C;
+
+      }
+      .boxK .percentK .numberK h2 span{
+      	font-size: 8px;
+      	font-family: Arial ;
+      	color: #7B241C;
+
+      }
+
+/* this is graph  css */
+
+#graph{
+	width: 280px;
+	height: 160px;
+	display: flex;
+	justify-content: space-around;
+	padding-top: 10px;
+	background-color: #fff;
+}
+
+	
+.A{
+  border-left: 6px solid #136C4A;
+  height: 20px;
+  
+}
+.B {
+  border-left: 6px solid #F3BD07;
+  height: 30px;
+ 
+}
+.C{
+  border-left: 6px solid #7B241C;
+  height: 25px;
+ 
+}
+.D{
+     border-left: 6px solid #FF6E33;
+     height: 70px;
+    
+}
+
+.E{
+  border-left: 6px solid #136C4A;
+  height: 15px;
+ 
+}
+.F {
+  border-left: 6px solid #D25905;
+  height: 30px;
+  
+}
+.G{
+  border-left: 6px solid #7B241C;
+  height: 20px;
+  
+}
+.H{
+     border-left: 6px solid #FF6E33;
+     height: 55px;
+     
+}
+
+.I{
+  border-left: 6px solid #136C4A;
+  height: 10px;
+  
+}
+.J {
+  border-left: 6px solid #D25905;
+  height: 25px;
+  
+}
+.K{
+  border-left: 6px solid #7B241C;
+  height: 20px;
+  
+}
+.L{
+     border-left: 6px solid #FF6E33;
+     height: 40px;
+     
+}
+
+.M{
+  border-left: 6px solid #136C4A;
+  height: 20px;
+  
+}
+.N {
+  border-left: 6px solid #D25905;
+  height: 25px;
+ 
+}
+.O{
+  border-left: 6px solid #7B241C;
+  height: 20px;
+  
+}
+.P{
+     border-left: 6px solid #FF6E33;
+     height: 60px;
+     
+}
+
+.Q{
+  border-left: 6px solid #136C4A;
+  height: 10px;
+ 
+}
+.R {
+  border-left: 6px solid #D25905;
+  height: 15px;
+  
+}
+.S{
+  border-left: 6px solid #7B241C;
+  height: 15px;
+  
+}
+.T{
+     border-left: 6px solid #FF6E33;
+     height: 45px;
+     
+}
+
+.U{
+  border-left: 6px solid #136C4A;
+  height: 15px;
+  
+}
+.V {
+  border-left: 6px solid #D25905;
+  height: 25px;
+  
+}
+.W{
+  border-left: 6px solid #7B241C;
+  height: 20px;
+  
+}
+.X{
+     border-left: 6px solid #FF6E33;
+     height: 35px;
+    
+}
+
+.v1{
+     border-left: 6px solid #fff;
+     height: 25px;
+    
+}
+.v2{
+     border-left: 6px solid #fff;
+     height: 50px;
+    
+}
+.v3{
+     border-left: 6px solid #fff;
+     height: 20px;
+    
+}
+.v4{
+     border-left: 6px solid #fff;
+     height: 60px;
+    
+}
+.v5{
+     border-left: 6px solid #fff;
+     height: 50px;
+    
+}
